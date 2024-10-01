@@ -1,0 +1,115 @@
+
+body
+{
+    margin: 0;
+    background-color: black;
+    list-style-type:
+}
+.box
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+.price-box
+{
+    width: 20vw;
+    height: 50vh;
+    padding: 0.3rem;
+    background-color:rgb(45, 45, 45);
+    margin: 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    overflow: hidden;
+    
+}
+
+.price-box#expensive 
+{
+    border: 2px solid rgb(128, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.price-box h1
+{
+    font-size: 1.5rem;
+}
+
+
+.price-box ul 
+{
+    text-align: left;
+    list-style-type: none;
+    margin-left: 2vw;
+}
+.price-box ul li
+{
+   margin: 0.3rem;
+}
+
+
+.price-box ul i
+{
+    padding-right: 0.2rem;
+}
+.popular
+{
+    position: absolute;
+    height: 1.4rem;
+    width: 7rem;
+    left: -2rem;
+    top: 1rem;
+    transform: rotate(-45deg);
+    background-color: rgb(128, 0, 0);
+    text-align: center;
+}
+
+.title
+{
+    margin: auto;
+}
+
+.price-box a
+{
+    text-decoration: none;
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: rgb(128, 0, 0);
+    padding: 1rem;
+    width: 20vh;
+    border-radius: 0.5rem;
+    margin:auto;
+    margin-top: 2rem;
+    
+
+}
+
+.price-box a:hover
+{
+    text-decoration: none;
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: rgb(100, 0, 0);
+    padding: 1.2rem;
+    width: 22vh;
+    border-radius: 0.5rem;
+    margin:auto;
+    margin-top: 2rem;
+    transform: 0.5s;
+}
+
+.fa-check
+{
+    color: green;
+}
+
+.fa-xmark
+{
+    color: rgb(128, 0, 0);
+}
